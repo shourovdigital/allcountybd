@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&family=Source+Serif+Pro:wght@600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+ol, ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+p, h1, h2, h3, h4, h5, h6, ul, ol{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.navigation img{
+    width: 300px; 
+}
+.navigation .navbar-nav .nav-item a{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.about_section{
+    background-image: url(../images/about-bg.png);
+    
+}
+.overlay{
+    background-color: rgba(0, 0, 0, 0.512);
+    background-color: rgba(166, 161, 161, 0.862);
+    padding: 70px 0px;
+}
+.about-content{
+    padding-top: 40px;
+}
+.about-content h1{
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(45, 105, 105);
+}
+.about_section .about-content h5{
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(33, 152, 173);
+}
+.about_section .about-content p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 17px;
+    padding-bottom: 10px;
+}
+.about_section .about-content a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    border: 1px solid #309bdd;
+    padding: 15px 20px;
+    border-radius: 30px;
+    background-color: #38b3ff;
+    text-decoration: none;
+    color: white;
+   
+}
+.about_section .about-content a:hover{
+    background-color: white;
+    color: #38b3ff;
+    cursor: pointer;
+    transition: 1s ease;
+}
+.service_section{
+    margin-top: 70px;
+    margin-bottom: 100px;
+}
+.service_section img{
+    border-radius: 50%;
+    margin-top: 30px;
+}
+.service_button{
+    margin-top: 60px;
+    text-align: center;
+}
+.service_section a{
+    border: 1px solid #0079C5;
+    background-color: #0079C5;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 15px;
+    font-weight: 700;
+}
+.service_section a:hover{
+    text-decoration: none;
+    border: 1px solid #0079C5;
+    background-color: #fff;
+    color: #0079C5;
+    transition: 0.5s ease;
+}
+.lead_section a{
+    border: 1px solid #0079C5;
+    background-color: #0079C5;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 15px;
+    font-weight: 700;
+    display: inline-block;
+    margin-top: 30px;
+}
+.lead_section a:hover{
+    text-decoration: none;
+    border: 1px solid #0079C5;
+    background-color: #fff;
+    color: #0079C5;
+    transition: 0.5s ease;
+}
+.learn_more_btn{
+    margin-top: 60px;
+}
+.lead_section{
+    text-align: center;
+    background-image: url(../images/slider3.jpg);
+}
+.overlay_lead{
+    background-color: rgba(0, 0, 0, 0.512);
+    background-color: rgba(231, 225, 225, 0.419);
+    padding: 200px 0;
+}
+.footer_section{
+    padding-top: 30px;
+    background-color: #163151;
+    text-align: center;
+}
+.footer_section img{
+    margin-bottom: 50px;
+}
+.contact_btn{
+    border: 1px solid #0079C5;
+    background-color: #0079C5;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 15px;
+    font-weight: 700;
+    margin-bottom: 50px;
+}
+.social{
+    margin-top: 50px;
+}
+.contact_btn:hover{
+    text-decoration: none;
+    border: 1px solid #0079C5;
+    background-color: #fff;
+    color: #0079C5;
+    transition: 0.5s ease;
+}
+.footer_section i{
+    font-size: 50px;
+    margin-left: 10px;
+    padding-bottom: 100px;
+}
+.footer_section i.facebook{
+    color: #049fff;
+}
+.footer_section i.facebook:hover{
+    color: white;
+}
+.footer_section i.instagram{
+    color: rgba(255, 0, 0, 0.674);
+}
+.footer_section i.instagram:hover{
+    color: white;
+}
+.footer_section ul li{
+    list-style: disc;
+    text-align: start;
+    margin-left: 30px;
+    color: white;
+}
+.footer_section ul li a{
+    color: white;
+}
